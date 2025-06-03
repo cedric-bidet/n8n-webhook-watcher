@@ -1,0 +1,42 @@
+{
+  "name": "n8n-webhook-watcher",
+  "version": "1.0.0",
+  "description": "Watch n8n PostgreSQL database for workflow changes and trigger webhooks",
+  "main": "index.js",
+  "bin": {
+    "n8n-webhook-watcher": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm install && node -e \"require('./index.js')\""
+  },
+  "keywords": [
+    "n8n",
+    "webhook",
+    "postgresql",
+    "database",
+    "watcher",
+    "automation",
+    "workflow"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/n8n-webhook-watcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/n8n-webhook-watcher/issues"
+  },
+  "homepage": "https://github.com/yourusername/n8n-webhook-watcher#readme"
+}
